@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        color: aliceblue;
+        background-color: rgb(8, 2, 40);
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(0, 9, 56);
+        margin-left: 15PX;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        text-decoration: none;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: aliceblue;
+      }
+      nav ul li a:hover{
+        color:rgb(177, 117, 234);
+        font-size: 1.2rem;
+
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection{
+        display:flex;
+        justify-content: space-around;
+        margin: 90px 0;
+        align-items: center;
+      }
+      .firstsection > div{
+        justify-content: space-around;
+        width: 40%;
+        margin: 10px ;
+        
+        
+      }
+      .leftsec{
+        
+        font-size: 3rem;
+      }
+      .rightsec img{
+        width: 90%;
+        margin: 30px 0;
+      }
+      .purple{
+        color: rgb(157, 60, 248);
+      }
+      #element{
+        color: rgb(254, 75, 254);
+      }
+      .contact ul{
+        display: flex;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        align-items:center;
+        left: -75px;
+        padding: 23px;
+        margin: 10px;
+      }
+      .contact ul li {
+        width: 30px;
+        list-style: none;
+        padding: 20px;
+        margin: 30px 30px;
+      }
+      .contact ul li img{
+        height: 40px;
+        width: 40px;
+        
+      }
+      .contact ul li img:hover{
+        height: 50px;
+        width:50px;
+        transition: 50ms;
+      }
+      .contact h1{
+        font-size: 24px;
+        margin-top: 10px;
+        color: grey;
+      }
+      .secoundsec{
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+        
+
+      }
+      hr{
+        border: 0;
+        background-color:lavender;
+        height: 0.2px;
+        margin: 40px 84px;
+      }
+      .text-grey{
+        color:grey;
+      }
+      
+
+      
+      .secoundsec .box{
+        background-color: aliceblue;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+        margin-bottom: 34px;
+      }
+      .secoundsec .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: aliceblue;
+        margin: 124px ;
+        margin-top: 0px;
+        position:relative;
+      }
+      .img-top{
+        width:33px;
+        position:absolute;
+        top: -46px;
+        left: -18px;
+
+      }
+      .vertical-title{
+        position:relative;
+        margin:10px ;
+        top:95px;
+        left: -72px;
+        width: 200px;
+        
+
+      }
+      .vertical-desc{
+        
+        position: relative;
+        top: 100px;
+        left:-104px;
+        width: 154px;
+        font-size: 10px;
+        color: grey;
+        margin: 0px 60px
+        
+
+      }
+      .thirdsec{
+        max-width: 80vw;
+        margin: auto;
+        height: 60vh;
+      }
+      .skills{
+        display: flex;
+        justify-content:space-around;
+        align-items:start;
+        margin-top: 20PX;
+      }
+      .thirdsec .leftsection {
+        width: 30vw;
+        line-height: 2.5;
+          
+      }
+      .thirdsec .rightsection{
+        margin-left: 98PX;
+        line-height: 2.5;
+        width: 30vw;
+      }
+      
+      .certificates{
+        
+        height: 30vh;
+        width: 40vw;
+        line-height: 2.5;
+
+      }
+  
+      footer{
+        background-color:rgba(11, 11, 117, 0.374)
+      }
+      .footer{
+        height: 25vh;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        color:grey;
+        margin:-63px 111px;
+        padding: 0px 40px;
+        
+        
+      }
+      footer ul li{
+        list-style: none;
+       
+      }
+      .footerend{
+        font-size: 8px;
+        margin:20px 550px;
+        color:aliceblue;
+        font-weight: 100;
+        font-family:"Poppins", sans-serif;
+      }
+
+      
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Praveens portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <section class="firstsection">
+      <div class="leftsec">Hi, My name is <span class="purple">Praveen</span>
+        
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <div class="contact">
+          <h1>Contact Me  </h1>
+          <ul><li><a href="3"><img src="insta icon.png" alt=""></a></li>
+          <li><a href="#"><img src="twitter logo.png" alt=""></a></li>
+          <li><a href="3"><img src="linked in logo.png" alt=""></a></li></ul>
+        </div>
+      </div>
+      <div class="rightsec"><img src="dw.png" alt=""></div>
+    </section>
+    <hr>
+    <section class="secoundsec">
+        <span class="text-grey"> What i have done so far</span>
+        <h1>work Experince</h1>
+
+        <div class="box">
+            <div class="vertical">
+                <img src="dw.png" alt="" class="img-top">
+                <div class="vertical-title">Html web developer <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2012-2014)</span></div>
+                <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui ipsam labore, soluta sed corrupti.</div>
+            </div>
+            <div class="vertical">
+              <img src="insta icon.png" alt="" class="img-top">
+                <div class="vertical-title">Html web developer <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2014-2016)</span></div>
+                <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui ipsam labore, soluta sed corrupti.</div>
+            </div>
+            <div class="vertical">
+              <img src="twitter logo.png" alt="" class="img-top">
+                <div class="vertical-title">Html web developer <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2016-2018)</span></div>
+                <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui ipsam labore, soluta sed corrupti.</div>
+            </div>
+            <div class="vertical">
+              <img src="y.png" alt="" class="img-top">
+                <div class="vertical-title">Html web developer <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2018-2020)</span></div>
+                <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui ipsam labore, soluta sed corrupti.</div>
+            </div>
+            <div class="vertical">
+              <img src="git.png" alt="" class="img-top" style="background-color: white;">
+                <div class="vertical-title">Html web developer <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2020-2022)</span></div>
+                <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem qui ipsam labore, soluta sed corrupti.</div>
+            </div>
+            <div class="vertical"></div>
+            <div class="vertical"></div>
+        </div>
+
+    </section>
+    <hr>
+    <section class="thirdsec">
+      <div class="text-grey">what i have learnt so far</div>
+      <h1>My skills</h1>
+      <div class="skills">
+      <div class="leftsection"><ul>
+        <h1>Technical skills</h1>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+        <li>HTML AND CSS</li>
+        <li>DBMS</li>
+        <li>GITHUB</li>
+      </ul></div>
+      <div class="rightsection"><ul>
+        <h1>Soft skills</h1>
+        <li>COMMUNICATION</li>
+        <li>LEADERSHIP QUALITIES</li>
+        <li>DECISION MAKING</li>
+        <li>TIME MANAGEMENT</li>
+        <li>PATIENCE</li>
+
+      </ul></div>
+      <div class="certificates">
+        <h1>Certificates</h1>
+        <ul><li>NPTEL JAVA CERTIFICATION</li>
+        <li>NPTEL DSA CERTIFICATION</li>
+        <li>CORSERA DATASCIENCE CERTIFICATION</li>
+        <li>HTML AND CSS CERTIFICATION</li>
+        <li>PYTHON CERTIFICATION</li></ul>
+      </div>
+    </div>
+      
+
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer">
+      <h1>Praveens portfolio</h1>
+      <ul>
+        <li>home </li>
+        <li>about</li>
+        <li>contact</li>
+        <li>service</li>
+      </ul>
+      <ul>
+        <li>home </li>
+        <li>about</li>
+        <li>contact</li>
+        <li>service</li>
+      </ul>
+      <ul>
+        <li>home </li>
+        <li>about</li>
+        <li>contact</li>
+        <li>service</li>
+      </ul>
+
+    </div>
+    <div class="footerend">
+      <h1>COPYRIGHT &#169 PRAVEEN.COM | ALL RIGHTS RESERVED</h1>
+    </div>
+
+  </footer>
+    
+  </body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Graphic Designer','vedio editor'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</html>
